@@ -1,6 +1,5 @@
-
 .cabecalho{
-    background-color:#1c5566;
+    background: linear-gradient(50deg, #1c5566, #0d2b33);
     display: flex;
     align-items: center;
     justify-content: center;  
@@ -8,15 +7,14 @@
     position: fixed;
     top: 0;
     width: 100%;
-    
-    
 }
+
 .logo{
     width: 150px;
     height: 100px; 
-    margin-right: 50px; 
-          
+    margin-right: 6rem;
 }
+
 input{
     width: 500px;
     height: 40px;
@@ -26,36 +24,41 @@ input{
     border: none;
     border-radius: 5px;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 1);
-    margin-right: 50px;
-}
-.cadastro{
-    margin-right: 50px;    
+    margin-right: 6rem;
 }
 
-.cadastro h1{
+.cadastro{
+    margin-right: 6rem;    
+}
+
+h1{
     font-size: 20px;
     margin-bottom: 0%;
 }
-.cadastro h5{
+h5{
     margin-top: 0%;
 }
 
 .usuario{
     width: 50px;
     height: 50px;
-    margin-right: 10px;
+    margin-right: 1rem;
 }
+
 .coracao{
-    margin-right: 20px;
+    margin-right: 2rem;
 }
+
 .coracao, .carrinho{
     width: 50px;
     height: 50px;   
 }
+
 .entre{
     text-decoration: none;
     color: black;
 }
+
 .pedidos{
     color: black;
 }
