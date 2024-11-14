@@ -1,0 +1,59 @@
+*{
+    margin-left: 5%;
+}
+
+.promocao, .destaque{
+    width: 90%;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.promocao{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.lancamento{
+    margin-top: 3rem;
+    font-size: 2.5rem;
+}
+
+.confira{
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.cartoes{
+    margin-left: 0%;
+    display: flex;
+    width: 90%;    
+}
+
+.imgcard{
+    width: 18rem;
+    border-radius: 5%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+
+.cartoes section{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 1.5rem;
+}
+
+button{
+    width: 50%;
+    height: 2.5rem;
+    font-size: 18px;
+    background-color: #0c272f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #dfdfdf;
+    transition: 0.1s;
+}
+
+button:hover{
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 1);
+    background-color: #102d35;
+}
