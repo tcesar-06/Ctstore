@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 120px;
+  padding: 0.5%;
   position: fixed;
   top: 0;
   width: 100%;
@@ -25,41 +25,44 @@ input{
   border-radius: 5px;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 1);
   margin-right: 6rem;
-  background-color: #efefef;;
+  background-color: #efefef;
 }
 
 .cadastro{
   margin-right: 6rem;
+
 }
 
 h1{
   font-size: 20px;
   margin-bottom: 0%;
+  cursor: pointer;
 }
 h5{
   margin-top: 0%;
+  cursor: pointer;
 }
 
 .usuario{
-  width: 50px;
-  height: 50px;
+  max-width: 50px;
+  max-height: 50px;
   margin-right: 1rem;
+  cursor: pointer;
 }
 
 .coracao{
   margin-right: 2rem;
+
 }
 
 .coracao, .carrinho{
-  width: 50px;
-  height: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  cursor: pointer;
 }
 
-.entre{
-  text-decoration: none;
+.entre, .pedidos{
   color: black;
+
 }
 
-.pedidos{
-  color: black;
-}

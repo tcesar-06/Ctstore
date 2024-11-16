@@ -1,5 +1,7 @@
 *{
     margin-left: 5%;
+    display: flex;
+
 }
 
 .promocao, .destaque{
@@ -23,18 +25,21 @@
 }
 
 .cartoes{
+    width: 90%;
     margin-left: 0%;
     display: flex;
-    width: 90%;    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .imgcard{
-    width: 18rem;
+    width: 14rem;
     border-radius: 5%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
 }
 
-.cartoes section{
+.cartoes div{
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -45,12 +50,17 @@ button{
     width: 50%;
     height: 2.5rem;
     font-size: 18px;
+    font-weight: 600;
     background-color: #0c272f;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     color: #dfdfdf;
     transition: 0.1s;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 button:hover{

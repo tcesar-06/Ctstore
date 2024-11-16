@@ -2,20 +2,31 @@
   background: linear-gradient(50deg, #1c5566, #0d2b33);
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 120px;
-  position: fixed;
-  top: 0;
+  justify-content: space-between;
+  padding: 0.5%;
   width: 100%;
-
 }
 
 .logo{
-  width: 150px;
-  height: 100px;
-  margin-right: 6rem;
+  max-width: 150px;
+  max-height: 100px;
   cursor: pointer;
+  margin-left: 5%;
+}
+
+.escudo{
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 5%;
 }
 
 
 
+
+
+
+@media (max-width: 600px) {
+  .logo, .escudo {
+    max-width: 80px; /* Ajusta o tamanho das imagens em telas menores */
+  }
+}
