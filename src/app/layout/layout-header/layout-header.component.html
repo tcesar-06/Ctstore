@@ -4,15 +4,22 @@
 
   <input type="text" name="nome" placeholder="O que você está procurando?">
 
-  <img (click)="login()" class="usuario" src="/profile-user.png" alt="Foto do usuário">
+
 
 
   <div class="cadastro">
+    <img (click)="login()" class="usuario" src="/profile-user.png" alt="Foto do usuário">
+    <div>
       <h1 (click)="login()">Entre ou cadastre-se</h1>
       <h5 (click)="login()">Meus pedidos</h5>
+    </div>
   </div>
 
-  <img (click)="login()" class="coracao" src="/heart.png" alt="Favoritos">
-  <img (click)="login()" class="carrinho" src="/shopping-cart.png" alt="Carrinho">
+  <div class="imagens">
+    <img (click)="login()" class="coracao" src="/heart.png" alt="Favoritos">
+    <img (click)="login()" class="carrinho" src="/shopping-cart.png" alt="Carrinho">
+  </div>
+
+
 
 </div>
