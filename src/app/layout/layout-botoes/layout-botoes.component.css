@@ -1,11 +1,12 @@
 .botao{
-  margin-top: 106.7px;
+  margin-top: 120px;
   background: linear-gradient(150deg, #1c5566, #0d2b33);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 36px;
-  padding: 15px;
+  height: 50px;
+  width: 100%;
 }
 
 button{
@@ -33,4 +34,11 @@ button .fogo{
 button:hover{
   background-color: #0c272f;
   color: white;
+}
+
+.b-e{
+  margin-left: 5%;
+}
+.b-d{
+  margin-right: 5%;
 }
