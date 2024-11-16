@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-layout-header',
@@ -8,5 +9,11 @@ import { Component } from '@angular/core';
   styleUrl: './layout-header.component.css'
 })
 export class LayoutHeaderComponent {
+  constructor(private router: Router){
 
+  }
+
+  login(){
+    this.router.navigate(['login'])
+  }
 }

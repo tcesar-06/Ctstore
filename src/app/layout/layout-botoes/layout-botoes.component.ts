@@ -10,11 +10,5 @@ import { Router } from '@angular/router';
 })
 export class LayoutBotoesComponent {
 
-  constructor(private router: Router){
-
-  }
-
-  login(){
-    this.router.navigate(['login'])
-  }
+  
 }
