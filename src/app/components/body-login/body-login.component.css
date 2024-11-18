@@ -1,10 +1,5 @@
 *{
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
 }
 .container{
   margin-top: 2rem;
@@ -42,4 +37,26 @@ button{
   border-radius: 5px;
   border: none;
   background-color: #1c5566;
+}
+
+.geral{
+  margin-top: 2rem;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.esqueceu, .nao-tem{
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center; 
+}
+
+.cadastre-se{
+ margin-left: 5px;
+ font-size: 0.7rem;
+ text-decoration: underline;
+ color: #1c5566;
 }
