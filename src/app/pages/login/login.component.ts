@@ -4,6 +4,7 @@ import { LayoutHeaderloginComponent } from '../../layout/layout-headerlogin/layo
 import { BodyLoginComponent } from '../../components/body-login/body-login.component';
 import { LayoutContasExtComponent } from '../../layout/layout-contas-ext/layout-contas-ext.component';
 
+
 @Component({
   selector: 'app-login',
   standalone: true,
