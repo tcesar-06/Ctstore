@@ -38,6 +38,9 @@ button{
   border: none;
   background-color: #1c5566;
 }
+button:hover{
+  
+}
 
 .geral{
   margin-top: 2rem;
