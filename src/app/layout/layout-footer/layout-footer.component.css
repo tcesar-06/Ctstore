@@ -8,7 +8,8 @@
   align-items: center;
   text-align: center;
   background-color: #010c0f;
-  bottom: 0%;  
+  bottom: 0%;
+  position: absolute;  
 }
 
 .l1, .l2{
