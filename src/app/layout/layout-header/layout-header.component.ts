@@ -16,4 +16,8 @@ export class LayoutHeaderComponent {
   login(){
     this.router.navigate(['login'])
   }
+  home(){
+    this.router.navigate(['home'])
+  }
+  
 }

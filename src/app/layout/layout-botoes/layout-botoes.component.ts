@@ -9,6 +9,11 @@ import { Router } from '@angular/router';
   styleUrl: './layout-botoes.component.css'
 })
 export class LayoutBotoesComponent {
+  constructor(private router: Router){
 
-  
+  }
+
+  estoque_geral(){
+    this.router.navigate(['estoque-geral'])
+  }
 }

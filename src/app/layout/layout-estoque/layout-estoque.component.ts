@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -9,5 +10,12 @@ import { Component } from '@angular/core';
   styleUrl: './layout-estoque.component.css'
 })
 export class LayoutEstoqueComponent {
+  constructor(private router: Router){
+
+  }
+
+  torcedor(){
+    this.router.navigate(['torcedor'])
+  }
 
 }
