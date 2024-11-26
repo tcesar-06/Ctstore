@@ -7,15 +7,15 @@
 }
 
 .logo{
-  max-width: 150px;
-  max-height: 100px;
-  cursor: pointer;
+  max-width: 10rem;
+  max-height: 6rem;
   margin-left: 5%;
+  cursor: pointer;
 }
 
 .escudo{
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 10rem;
+  max-height: 6rem;
   margin-right: 5%;
 }
 
