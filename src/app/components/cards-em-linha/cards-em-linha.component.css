@@ -1,0 +1,23 @@
+.container{
+    margin-top: 180px;
+    width: 95%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.linha{
+    background-color: brown;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    margin: 1%;
+    width: 20%;
+    background-color: aqua;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
