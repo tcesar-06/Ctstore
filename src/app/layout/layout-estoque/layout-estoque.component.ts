@@ -23,5 +23,8 @@ export class LayoutEstoqueComponent {
   retro(){
     this.router.navigate(['retro'])
   }
+  cortavento(){
+    this.router.navigate(['cortavento'])
+  }
 
 }

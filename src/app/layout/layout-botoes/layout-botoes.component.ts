@@ -16,4 +16,7 @@ export class LayoutBotoesComponent {
   estoque_geral(){
     this.router.navigate(['estoque-geral'])
   }
+  cortavento(){
+    this.router.navigate(['cortavento'])
+  }
 }
