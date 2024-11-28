@@ -1,5 +1,5 @@
 body{
-    margin-top: 150px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -8,3 +8,11 @@ body{
 
 
 }
+
+div{
+    margin-left: 5%;
+    margin-top: 150px;
+   
+
+}
+
