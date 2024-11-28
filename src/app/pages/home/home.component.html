@@ -2,5 +2,10 @@
 <app-layout-botoes></app-layout-botoes>
 <router-outlet></router-outlet>
 <app-body></app-body>
-<app-card-inicial></app-card-inicial>
+<div>
+    @for (produto of produtos; track produtos) {
+        <app-card-inicial [imagem]="produto.imagem"></app-card-inicial>
+    }
+</div>
+
 <app-layout-footer></app-layout-footer>
