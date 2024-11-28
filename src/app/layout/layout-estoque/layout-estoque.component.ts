@@ -17,5 +17,8 @@ export class LayoutEstoqueComponent {
   torcedor(){
     this.router.navigate(['torcedor'])
   }
+  jogador(){
+    this.router.navigate(['jogador'])
+  }
 
 }

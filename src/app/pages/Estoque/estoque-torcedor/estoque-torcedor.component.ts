@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, output } from '@angular/core';
 import { LayoutHeaderComponent } from '../../../layout/layout-header/layout-header.component';
 import { LayoutFooterComponent } from '../../../layout/layout-footer/layout-footer.component';
 import { CardProdutoComponent } from '../../../components/card-produto/card-produto.component';
@@ -13,6 +13,7 @@ templateUrl: './estoque-torcedor.component.html',
   styleUrl: './estoque-torcedor.component.css'
 })
 export class EstoqueTorcedorComponent {
+
 
   produtos = [
     {
