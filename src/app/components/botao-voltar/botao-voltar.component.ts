@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, input, Input, Output, output } from '@angular/core';
+import { Router, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-botao-voltar',
@@ -15,5 +15,8 @@ export class BotaoVoltarComponent {
 
   estoque_geral(){
     this.router.navigate(['estoque-geral'])
+  }
+  jogador(){
+    this.router.navigate(['jogador'])
   }
 }
