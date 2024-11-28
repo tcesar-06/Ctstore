@@ -4,6 +4,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { EstoqueGeralComponent } from './pages/Estoque/estoque-geral/estoque-geral.component';
 import { EstoqueTorcedorComponent } from './pages/Estoque/estoque-torcedor/estoque-torcedor.component';
 import { EstoqueJogadorComponent } from './pages/Estoque/estoque-jogador/estoque-jogador.component';
+import { EstoqueRetroComponent } from './pages/Estoque/estoque-retro/estoque-retro.component';
 
 
 
@@ -15,4 +16,5 @@ export const routes: Routes = [
   { path: 'estoque-geral', component: EstoqueGeralComponent },
   { path: 'torcedor', component: EstoqueTorcedorComponent },
   { path: 'jogador', component: EstoqueJogadorComponent },
+  { path: 'retro', component: EstoqueRetroComponent },
 ];

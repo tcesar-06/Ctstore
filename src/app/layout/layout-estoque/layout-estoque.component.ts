@@ -20,5 +20,8 @@ export class LayoutEstoqueComponent {
   jogador(){
     this.router.navigate(['jogador'])
   }
+  retro(){
+    this.router.navigate(['retro'])
+  }
 
 }
