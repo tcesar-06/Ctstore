@@ -1,0 +1,26 @@
+button{
+    cursor: pointer;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #1c5566;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    
+    transition: 0.3s;
+}
+
+button:hover{
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.589);
+    background-color: #0d2b33;
+}
+
+.container{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+

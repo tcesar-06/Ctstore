@@ -3,11 +3,12 @@ import { LayoutHeaderComponent } from '../../../layout/layout-header/layout-head
 import { LayoutFooterComponent } from '../../../layout/layout-footer/layout-footer.component';
 import { CardProdutoComponent } from '../../../components/card-produto/card-produto.component';
 import { CommonModule } from '@angular/common';
+import { BotaoVoltarComponent } from '../../../components/botao-voltar/botao-voltar.component';
 
 @Component({
   selector: 'app-estoque-torcedor',
   standalone: true,
-  imports: [LayoutHeaderComponent, LayoutFooterComponent, CardProdutoComponent, CommonModule],
+  imports: [LayoutHeaderComponent, LayoutFooterComponent, CardProdutoComponent, CommonModule, BotaoVoltarComponent],
 templateUrl: './estoque-torcedor.component.html',
   styleUrl: './estoque-torcedor.component.css'
 })
