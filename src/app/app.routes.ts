@@ -9,6 +9,7 @@ import { EstoqueCortaventoComponent } from './pages/Estoque/estoque-cortavento/e
 import { EstoqueShortComponent } from './pages/Estoque/estoque-short/estoque-short.component';
 import { EstoqueNbaComponent } from './pages/Estoque/estoque-nba/estoque-nba.component';
 import { EstoqueInfantilComponent } from './pages/Estoque/estoque-infantil/estoque-infantil.component';
+import { EstoqueBabyComponent } from './pages/Estoque/estoque-baby/estoque-baby.component';
 
 
 
@@ -24,6 +25,6 @@ export const routes: Routes = [
   { path: 'cortavento', component: EstoqueCortaventoComponent },
   { path: 'nba', component: EstoqueNbaComponent },
   { path: 'infantil', component: EstoqueInfantilComponent },
-  { path: 'short', component: EstoqueShortComponent },
+  { path: 'baby', component: EstoqueBabyComponent },
   { path: 'short', component: EstoqueShortComponent },
 ];

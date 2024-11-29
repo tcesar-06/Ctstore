@@ -9,14 +9,24 @@ import { Router, RouterOutlet } from '@angular/router';
   styleUrl: './botao-voltar.component.css'
 })
 export class BotaoVoltarComponent {
+
+  @Input() titulo: string = '';
+  @Input() proximo: () => void = () => {};
+  @Input() anterior: () => void = () => {};
+
   constructor(private router: Router){
 
   }
 
-  estoque_geral(){
-    this.router.navigate(['estoque-geral'])
+  navegarAnterior() {
+    if (this.anterior) {
+      this.anterior();
+    }
   }
-  jogador(){
-    this.router.navigate(['jogador'])
+
+  navegarProximo() {
+    if (this.proximo) {
+      this.proximo();
+    }
   }
 }

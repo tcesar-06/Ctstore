@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { CardProdutoComponent } from '../../../components/card-produto/card-produto.component';
 import { LayoutFooterComponent } from '../../../layout/layout-footer/layout-footer.component';
 import { LayoutHeaderComponent } from '../../../layout/layout-header/layout-header.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-estoque-retro',
@@ -13,6 +14,17 @@ import { LayoutHeaderComponent } from '../../../layout/layout-header/layout-head
   styleUrl: './estoque-retro.component.css'
 })
 export class EstoqueRetroComponent {
+  constructor(private router: Router) {
+
+  }
+  
+  jogador() {
+    this.router.navigate(['jogador']);
+  }
+  cortavento() {
+    this.router.navigate(['cortavento']);
+  }
+  
   produtos = [
     {
       nomeCamisa: 'Argentina-I-2014',
