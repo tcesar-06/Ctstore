@@ -22,4 +22,7 @@ export class LayoutBotoesComponent {
   short(){
     this.router.navigate(['short'])
   }
+  nba(){
+    this.router.navigate(['nba'])
+  }
 }

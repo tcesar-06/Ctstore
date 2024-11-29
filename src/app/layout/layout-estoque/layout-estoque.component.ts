@@ -29,5 +29,8 @@ export class LayoutEstoqueComponent {
   short(){
     this.router.navigate(['short'])
   }
+  nba(){
+    this.router.navigate(['nba'])
+  }
 
 }

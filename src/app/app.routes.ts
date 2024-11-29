@@ -7,6 +7,7 @@ import { EstoqueJogadorComponent } from './pages/Estoque/estoque-jogador/estoque
 import { EstoqueRetroComponent } from './pages/Estoque/estoque-retro/estoque-retro.component';
 import { EstoqueCortaventoComponent } from './pages/Estoque/estoque-cortavento/estoque-cortavento.component';
 import { EstoqueShortComponent } from './pages/Estoque/estoque-short/estoque-short.component';
+import { EstoqueNbaComponent } from './pages/Estoque/estoque-nba/estoque-nba.component';
 
 
 
@@ -20,5 +21,8 @@ export const routes: Routes = [
   { path: 'jogador', component: EstoqueJogadorComponent },
   { path: 'retro', component: EstoqueRetroComponent },
   { path: 'cortavento', component: EstoqueCortaventoComponent },
+  { path: 'nba', component: EstoqueNbaComponent },
+  { path: 'short', component: EstoqueShortComponent },
+  { path: 'short', component: EstoqueShortComponent },
   { path: 'short', component: EstoqueShortComponent },
 ];
