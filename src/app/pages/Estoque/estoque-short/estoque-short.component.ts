@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { CardProdutoComponent } from '../../../components/card-produto/card-produto.component';
 import { LayoutFooterComponent } from '../../../layout/layout-footer/layout-footer.component';
 import { LayoutHeaderComponent } from '../../../layout/layout-header/layout-header.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-estoque-short',
@@ -14,6 +15,16 @@ import { LayoutHeaderComponent } from '../../../layout/layout-header/layout-head
 })
 export class EstoqueShortComponent {
 
+  constructor(private router: Router) {
+
+  }
+
+  cortavento() {
+    this.router.navigate(['cortavento']);
+  }
+  nba() {
+    this.router.navigate(['nba']);
+  }
   
   produtos = [
     {

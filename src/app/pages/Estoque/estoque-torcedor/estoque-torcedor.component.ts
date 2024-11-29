@@ -4,6 +4,7 @@ import { LayoutFooterComponent } from '../../../layout/layout-footer/layout-foot
 import { CardProdutoComponent } from '../../../components/card-produto/card-produto.component';
 import { CommonModule } from '@angular/common';
 import { BotaoVoltarComponent } from '../../../components/botao-voltar/botao-voltar.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-estoque-torcedor',
@@ -14,6 +15,16 @@ templateUrl: './estoque-torcedor.component.html',
 })
 export class EstoqueTorcedorComponent {
 
+  constructor(private router: Router) {
+
+  }
+
+  estoqueGeral() {
+    this.router.navigate(['estoque-geral']);
+  }
+  jogador() {
+    this.router.navigate(['jogador']);
+  }
 
   produtos = [
     {

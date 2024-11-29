@@ -1,12 +1,13 @@
 <app-layout-header></app-layout-header>
 <div>
-    <app-botao-voltar [titulo] = "'Retrô'" [anterior]="jogador" [proximo]="cortavento"></app-botao-voltar>
+    <app-botao-voltar [titulo] = "'Baby Body'" [anterior]="infantil" [proximo]="estoqueGeral"></app-botao-voltar>
+    
 </div>
 <body>
+    
     @for (produto of produtos; track produtos) {
         <app-card-produto [imagem]="produto.imagem" [nomeCamisa]="produto.nomeCamisa" [valor]="produto.valor"></app-card-produto>
-        }
+        } 
 </body>
-
 
 <app-layout-footer></app-layout-footer>

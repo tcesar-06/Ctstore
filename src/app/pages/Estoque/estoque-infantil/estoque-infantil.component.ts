@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { CardProdutoComponent } from '../../../components/card-produto/card-produto.component';
 import { LayoutFooterComponent } from '../../../layout/layout-footer/layout-footer.component';
 import { LayoutHeaderComponent } from '../../../layout/layout-header/layout-header.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-estoque-infantil',
@@ -13,6 +14,17 @@ import { LayoutHeaderComponent } from '../../../layout/layout-header/layout-head
   styleUrl: './estoque-infantil.component.css'
 })
 export class EstoqueInfantilComponent {
+
+  constructor(private router: Router) {
+
+  }
+
+  nba() {
+    this.router.navigate(['nba']);
+  }
+  baby() {
+    this.router.navigate(['baby']);
+  }
 
   produtos = [
     {

@@ -4,6 +4,7 @@ import { LayoutFooterComponent } from '../../../layout/layout-footer/layout-foot
 import { CardProdutoComponent } from '../../../components/card-produto/card-produto.component';
 import { CommonModule } from '@angular/common';
 import { BotaoVoltarComponent } from '../../../components/botao-voltar/botao-voltar.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-estoque-cortavento',
@@ -14,6 +15,17 @@ import { BotaoVoltarComponent } from '../../../components/botao-voltar/botao-vol
 })
 export class EstoqueCortaventoComponent {
 
+  constructor(private router: Router) {
+
+  }
+  
+  retro() {
+    this.router.navigate(['retro']);
+  }
+  short() {
+    this.router.navigate(['short']);
+  }
+  
   produtos = [
     {
       nomeCamisa: 'Alemanha',

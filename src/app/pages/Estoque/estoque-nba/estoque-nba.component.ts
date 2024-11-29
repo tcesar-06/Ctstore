@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { CardProdutoComponent } from '../../../components/card-produto/card-produto.component';
 import { LayoutFooterComponent } from '../../../layout/layout-footer/layout-footer.component';
 import { LayoutHeaderComponent } from '../../../layout/layout-header/layout-header.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-estoque-nba',
@@ -13,6 +14,18 @@ import { LayoutHeaderComponent } from '../../../layout/layout-header/layout-head
   styleUrl: './estoque-nba.component.css'
 })
 export class EstoqueNbaComponent {
+
+  constructor(private router: Router) {
+
+  }
+
+  short() {
+    this.router.navigate(['short']);
+  }
+  infantil() {
+    this.router.navigate(['infantil']);
+  }
+
   produtos = [
     {
       nomeCamisa: 'Boston Celtics - nº0',

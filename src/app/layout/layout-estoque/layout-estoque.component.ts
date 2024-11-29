@@ -32,5 +32,11 @@ export class LayoutEstoqueComponent {
   nba(){
     this.router.navigate(['nba'])
   }
+  infantil(){
+    this.router.navigate(['infantil'])
+  }
+  baby(){
+    this.router.navigate(['baby'])
+  }
 
 }
