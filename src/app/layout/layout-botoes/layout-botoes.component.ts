@@ -16,6 +16,15 @@ export class LayoutBotoesComponent {
   estoque_geral(){
     this.router.navigate(['estoque-geral'])
   }
+  torcedor(){
+    this.router.navigate(['torcedor'])
+  }
+  jogador(){
+    this.router.navigate(['jogador'])
+  }
+  retro(){
+    this.router.navigate(['retro'])
+  }
   cortavento(){
     this.router.navigate(['cortavento'])
   }
@@ -25,4 +34,11 @@ export class LayoutBotoesComponent {
   nba(){
     this.router.navigate(['nba'])
   }
+  infantil(){
+    this.router.navigate(['infantil'])
+  }
+  baby(){
+    this.router.navigate(['baby'])
+  }
+ 
 }
