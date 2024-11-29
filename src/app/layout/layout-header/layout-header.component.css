@@ -36,6 +36,7 @@ h1{
 h5{
   margin-top: 0%;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .usuario{
@@ -75,8 +76,5 @@ h5{
   cursor: pointer;
 }
 
-.entre, .pedidos{
-  color: black;
 
-}
 
