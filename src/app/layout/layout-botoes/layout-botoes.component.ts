@@ -19,4 +19,7 @@ export class LayoutBotoesComponent {
   cortavento(){
     this.router.navigate(['cortavento'])
   }
+  short(){
+    this.router.navigate(['short'])
+  }
 }

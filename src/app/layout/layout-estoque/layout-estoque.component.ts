@@ -26,5 +26,8 @@ export class LayoutEstoqueComponent {
   cortavento(){
     this.router.navigate(['cortavento'])
   }
+  short(){
+    this.router.navigate(['short'])
+  }
 
 }
