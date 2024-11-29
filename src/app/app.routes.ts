@@ -8,6 +8,7 @@ import { EstoqueRetroComponent } from './pages/Estoque/estoque-retro/estoque-ret
 import { EstoqueCortaventoComponent } from './pages/Estoque/estoque-cortavento/estoque-cortavento.component';
 import { EstoqueShortComponent } from './pages/Estoque/estoque-short/estoque-short.component';
 import { EstoqueNbaComponent } from './pages/Estoque/estoque-nba/estoque-nba.component';
+import { EstoqueInfantilComponent } from './pages/Estoque/estoque-infantil/estoque-infantil.component';
 
 
 
@@ -22,7 +23,7 @@ export const routes: Routes = [
   { path: 'retro', component: EstoqueRetroComponent },
   { path: 'cortavento', component: EstoqueCortaventoComponent },
   { path: 'nba', component: EstoqueNbaComponent },
-  { path: 'short', component: EstoqueShortComponent },
+  { path: 'infantil', component: EstoqueInfantilComponent },
   { path: 'short', component: EstoqueShortComponent },
   { path: 'short', component: EstoqueShortComponent },
 ];
