@@ -12,6 +12,7 @@ import { EstoqueInfantilComponent } from './pages/Estoque/estoque-infantil/estoq
 import { EstoqueBabyComponent } from './pages/Estoque/estoque-baby/estoque-baby.component';
 import { LoginHomeComponent } from './pages/login-home/login-home.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
+import { PerfilComponent } from './pages/perfil/perfil.component';
 
 
 
@@ -22,6 +23,7 @@ export const routes: Routes = [
   { path: 'login-home', component: LoginHomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'cadastro', component: CadastroComponent },
+  { path: 'perfil', component: PerfilComponent },
   { path: 'estoque-geral', component: EstoqueGeralComponent },
   { path: 'torcedor', component: EstoqueTorcedorComponent },
   { path: 'jogador', component: EstoqueJogadorComponent },
