@@ -10,6 +10,8 @@ import { EstoqueShortComponent } from './pages/Estoque/estoque-short/estoque-sho
 import { EstoqueNbaComponent } from './pages/Estoque/estoque-nba/estoque-nba.component';
 import { EstoqueInfantilComponent } from './pages/Estoque/estoque-infantil/estoque-infantil.component';
 import { EstoqueBabyComponent } from './pages/Estoque/estoque-baby/estoque-baby.component';
+import { LoginHomeComponent } from './pages/login-home/login-home.component';
+import { CadastroComponent } from './pages/cadastro/cadastro.component';
 
 
 
@@ -17,7 +19,9 @@ export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'login-home', component: LoginHomeComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'cadastro', component: CadastroComponent },
   { path: 'estoque-geral', component: EstoqueGeralComponent },
   { path: 'torcedor', component: EstoqueTorcedorComponent },
   { path: 'jogador', component: EstoqueJogadorComponent },
