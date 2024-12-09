@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-body-login',
@@ -9,4 +10,10 @@ import { Component } from '@angular/core';
 })
 export class BodyLoginComponent {
 
+  constructor(private router: Router){
+
+  }
+  cadastro(){
+    this.router.navigate(['cadastro'])
+  }
 }

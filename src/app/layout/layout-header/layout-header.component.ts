@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -9,6 +9,10 @@ import { Router } from '@angular/router';
   styleUrl: './layout-header.component.css'
 })
 export class LayoutHeaderComponent {
+
+  @Input() texto: string = '';
+  @Input() texto2: string = '';
+
   constructor(private router: Router){
 
   }
